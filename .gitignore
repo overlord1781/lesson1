@@ -1,3 +1,2 @@
 *.txt
 /Telegram/*.log
-git rm -r --cached 'storage/Telegram/bot.log'
