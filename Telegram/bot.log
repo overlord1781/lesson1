@@ -1,0 +1,78 @@
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+WARNING:telegram.ext.updater:Exiting immediately!
+INFO:root:��� ����������
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+WARNING:telegram.ext.updater:Exiting immediately!
+INFO:root:��� ����������
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+WARNING:telegram.ext.updater:Exiting immediately!
+DEBUG:telegram.ext.dispatcher:Setting singleton dispatcher as <telegram.ext.dispatcher.Dispatcher object at 0x0000017F44621AF0>
+INFO:root:��� ����������
+INFO:apscheduler.scheduler:Scheduler started
+DEBUG:apscheduler.scheduler:Looking for jobs to run
+DEBUG:telegram.bot:Entering: get_me
+DEBUG:apscheduler.scheduler:No jobs; waiting until a job is added
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:https://api.telegram.org:443 "POST /bot1645080260:AAFPS09Z4lN8ShaI-W3p9Jk0H1i_QOdZGJQ/getMe HTTP/1.1" 200 200
+DEBUG:telegram.bot:{'id': 1645080260, 'first_name': 'BotFromeMark', 'is_bot': True, 'username': 'BotFromMark_bot', 'can_join_groups': True, 'can_read_all_group_messages': False, 'supports_inline_queries': False}
+DEBUG:telegram.bot:Exiting: get_me
+DEBUG:telegram.ext.updater:Bot:1645080260:dispatcher - started
+DEBUG:telegram.ext.updater:Bot:1645080260:updater - started
+DEBUG:telegram.ext.updater:Updater thread started (polling)
+DEBUG:telegram.ext.updater:Start network loop retry bootstrap del webhook
+DEBUG:telegram.ext.updater:Waiting for Dispatcher and polling to start
+DEBUG:telegram.bot:Entering: delete_webhook
+DEBUG:telegram.ext.dispatcher:Dispatcher started
+DEBUG:telegram.vendor.ptb_urllib3.urllib3.connectionpool:https://api.telegram.org:443 "POST /bot1645080260:AAFPS09Z4lN8ShaI-W3p9Jk0H1i_QOdZGJQ/deleteWebhook HTTP/1.1" 200 68
+DEBUG:telegram.bot:True
+DEBUG:telegram.bot:Exiting: delete_webhook
+DEBUG:telegram.ext.updater:Bootstrap done
+DEBUG:telegram.ext.updater:Start network loop retry getting Updates
+DEBUG:telegram.bot:Entering: get_updates
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+DEBUG:apscheduler.scheduler:Looking for jobs to run
+DEBUG:apscheduler.scheduler:No jobs; waiting until a job is added
+DEBUG:telegram.ext.updater:Stopping Updater and Dispatcher...
+DEBUG:telegram.ext.updater:Requesting Dispatcher to stop...
+WARNING:telegram.ext.updater:Exiting immediately!
+INFO:root:��� ����������
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+WARNING:telegram.ext.updater:Exiting immediately!
+INFO:root:��� ����������
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+WARNING:telegram.ext.updater:Exiting immediately!
+2021-02-14 17:33:58,750 ��� ����������
+2021-02-14 17:33:58,751 Scheduler started
+2021-02-14 17:34:00,513 Received signal 2 (SIGINT), stopping...
+2021-02-14 17:34:00,513 Scheduler has been shut down
+2021-02-14 17:34:00,683 Exiting immediately!
+02/14/2021 05:35:09 PM ��� ����������
+02/14/2021 05:35:09 PM Scheduler started
+02/14/2021 05:35:09 PM Received signal 2 (SIGINT), stopping...
+02/14/2021 05:35:09 PM Scheduler has been shut down
+02/14/2021 05:35:10 PM Exiting immediately!
+02/14/2021 05:36:53 PM ��� ����������
+02/14/2021 05:36:53 PM Scheduler started
+02/14/2021 05:36:59 PM No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Mark\AppData\Roaming\Python\Python38\site-packages\telegram\ext\dispatcher.py", line 442, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\Mark\AppData\Roaming\Python\Python38\site-packages\telegram\ext\handler.py", line 160, in handle_update
+    return self.callback(update, context)
+  File "C:\projects\lesson1\Telegram\telegramBot.py", line 17, in greet_user
+    print(1/0)
+ZeroDivisionError: division by zero
+02/14/2021 05:37:03 PM Received signal 2 (SIGINT), stopping...
+02/14/2021 05:37:03 PM Scheduler has been shut down
+02/14/2021 05:37:03 PM Exiting immediately!
