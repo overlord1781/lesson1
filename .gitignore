@@ -1,2 +1,3 @@
 *.txt
 /Telegram/*.log
+git rm -r cached 'Telegram/*.log'
