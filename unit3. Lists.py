@@ -1,6 +1,6 @@
 #Создание списка
 print('Создане списка')
-phones_list = ['Xiaomi Mi8', 'iPhone Xs', 'Samsung Galaxy S10', 'iPhone Xs']
+phones_list = ['Xiaomi Mi8', 'iPhone Xs', 'Samsung Galaxy S10', 'iPhone Xs', 'проверка коммита на гите']
 phones_count = len(phones_list)
 print(phones_list)
 print(phones_count)
