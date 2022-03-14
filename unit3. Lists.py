@@ -6,7 +6,7 @@ print(phones_list)
 print(phones_count)
 print('\n')
 
-#Добавление эллементов
+#Добавление эллементов test git changes
 print('Добавление эллементов')
 phones_list.append('Iphone 6')
 phones_count = len(phones_list)
